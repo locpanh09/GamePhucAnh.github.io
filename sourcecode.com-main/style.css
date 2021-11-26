@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: " Poppins ", sans-serif;
+}
+/* phanmenu */
+a {
+  text-decoration: none;
+}
+/* li {
+  list-style: none;
+} */
+.title {
+  display: flex;
+  justify-content: space-between;
+  background: #0b0c1b;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 20;
+  /* margin-top: 40px; */
+  padding: 40px 0px;
+}
+.icon {
+  margin-left: 200px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  margin-right: 200px;
+}
+.menu a:hover {
+  color: #1cbfff;
+}
+.menu li {
+  font-size: 14px;
+}
+/* .menu li:hover {
+  color: #1cbfff;
+} */
+.menu a {
+  margin-top: 7px;
+  text-decoration: none;
+  padding: 10px 30px;
+  color: #fff;
+}
+.fa-user {
+  margin-right: 7px;
+}
+.menu li:hover .dropdown-menu {
+  display: block;
+}
+/* dropdown */
+
+.dropdown-menu {
+  background-color: #26273b;
+  display: none;
+  position: absolute;
+  width: 200px;
+  filter: drop-shadow(0 0 0.5em rgba(0, 0, 0, 0.15));
+  border-radius: 3px;
+  margin-top: 20px;
+  color: #1cbfff;
+  padding: 10px 20px;
+  line-height: 35px;
+  z-index: 2;
+}
+.dropdown-menu li {
+  font-size: 17px;
+  list-style: none;
+}
+.dropdown-menu li:hover {
+  color: #fff;
+}
+/* lopao */
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 2.5rem;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #26273b;
+  transform: translateY(-100%);
+}
+.cutngay::before {
+  content: "";
+  height: 1.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  transform: translateY(-100%);
+}
+
+/* phanduoimenu */
+.assi {
+  color: #fff;
+  background: #0b0c1b;
+  height: 612px;
+  padding-top: 171px;
+  padding-left: 201px;
+  display: flex;
+}
+.clone {
+  position: relative;
+}
+.clone h1 {
+  text-transform: uppercase;
+  font-size: 34px;
+}
+.clone h1 sup {
+  font-size: 10.1px;
+}
+.clone span {
+  font-size: 23px;
+  line-height: 60.4px;
+  font-weight: 100;
+}
+.clone p {
+  line-height: 25.6px;
+  font-size: 18px;
+}
+.imgs img {
+  margin-right: 150px;
+  z-index: -1;
+}
+
+/* phanmobiapss */
+.mobiaps {
+  height: 687px;
+  background-color: #141526;
+  display: flex;
+  padding-top: 88px;
+  z-index: 1;
+  position: relative;
+  margin-top: -70px;
+  overflow: hidden;
+}
+.speed {
+  padding-left: 201px;
+  margin-top: 10px;
+}
+.speed h3 {
+  color: #1cbfff;
+  font-weight: 100;
+  font-size: 24px;
+}
+.speed p {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 25px;
+}
+.ap {
+  display: flex;
+  font-size: 20px;
+  margin-top: 48px;
+  margin-left: -10px;
+}
+.ap a {
+  color: #55cfff;
+}
+.android {
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+.ios {
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+.imgs1 {
+  margin-right: -120px;
+}
+
+/* phandesktop */
+
+.desktop {
+  background-color: #0b0c1b;
+  height: 528px;
+  display: flex;
+  padding-left: 140px;
+  padding-top: 73px;
+}
+.desktop-apps {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.desktop-apps h3 {
+  color: #1cbfff;
+  font-weight: 100;
+  font-size: 24px;
+}
+.desktop-apps p {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 25px;
+}
+.ap1 {
+  display: flex;
+  font-size: 20px;
+  margin-top: 48px;
+  margin-left: -10px;
+}
+.ap1 a {
+  color: #55cfff;
+}
+.window {
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+.macOS {
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+
+/* phanchrome */
+.browser-extension {
+  display: flex;
+  height: 476px;
+  background-color: #141526;
+  padding-left: 201px;
+  padding-top: 73px;
+}
+.browser {
+  margin-right: 150px;
+}
+.browser h3 {
+  color: #1cbfff;
+  font-weight: 100;
+  font-size: 24px;
+}
+.browser p {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 48px;
+}
+.chorme a {
+  color: #55cfff;
+  font-size: 20px;
+}
+.chorme {
+  margin-left: -10px;
+}
+.chorme span {
+  line-height: 25px;
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+/* phanTVapp */
+
+.TVapp {
+  display: flex;
+  height: 509px;
+  background-color: #0b0c1b;
+  padding-top: 64px;
+  padding-left: 148px;
+}
+.imgs4 {
+  margin-right: 80px;
+}
+.TV h3 {
+  color: #1cbfff;
+  font-weight: 100;
+  font-size: 24px;
+}
+.TV p {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 48px;
+}
+.AppleTV a {
+  color: #55cfff;
+  font-size: 20px;
+}
+.AppleTV {
+  margin-left: -10px;
+}
+.AppleTV span {
+  line-height: 25px;
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+/* phancommandline */
+
+.command {
+  height: 552px;
+  display: flex;
+  background-color: #141526;
+  padding-left: 201px;
+  padding-top: 74px;
+}
+.line h3 {
+  color: #1cbfff;
+  font-weight: 100;
+  font-size: 24px;
+}
+.line p {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 48px;
+}
+.CLI a {
+  color: #55cfff;
+  font-size: 20px;
+}
+.CLI {
+  margin-left: -10px;
+}
+.CLI span {
+  line-height: 25px;
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+.imgs5 {
+  margin-left: 80px;
+}
+
+/* phanVPN */
+
+.VPN {
+  height: 535px;
+  display: flex;
+  background-color: #0b0c1b;
+  padding-left: 375px;
+  padding-top: 64px;
+}
+.speedtestVPN {
+  margin-top: 10px;
+}
+.speedtestVPN h3 {
+  color: #1cbfff;
+  font-weight: 100;
+  font-size: 24px;
+}
+.speedtestVPN p {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 48px;
+}
+.Vpn1 a {
+  color: #55cfff;
+  font-size: 20px;
+}
+.Vpn1 {
+  margin-left: -10px;
+}
+.Vpn1 span {
+  line-height: 25px;
+  border-color: #55cfff;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 8px 8px;
+  padding: 7.6px 23.6px;
+  text-align: center;
+}
+.imgs6 {
+  margin-right: 213px;
+}
+/* phancuoi */
+#cuoi {
+  height: 617px;
+  background-color: #000000;
+  margin: 0 auto;
+  padding-top: 54px;
+  padding-left: 197px;
+}
+.phancuoi {
+  display: flex;
+}
+.phancuoi h2 {
+  color: #d7d8df;
+  font-size: 18px;
+}
+.phancuoi h2:hover {
+  color: #fff;
+}
+.phancuoi li {
+  list-style: none;
+  color: #9193a8;
+  line-height: 25px;
+  font-size: 17px;
+}
+.phancuoi li:hover {
+  color: #fff;
+}
+.speedtet {
+  margin-right: 112px;
+}
+.apps {
+  margin-right: 171px;
+}
+.account {
+  margin-right: 141px;
+}
+.fa-facebook-f {
+  margin-right: 7px;
+}
+.fa-bookmark {
+  font-size: 13px;
+  margin-right: 15px;
+}
+.cuoicung {
+  color: #9193a8;
+  font-size: 11.6667px;
+  line-height: 18.6667px;
+  text-align: center;
+  margin-left: -250px;
+  margin-top: 45px;
+}
+.ierm {
+  display: flex;
+  margin-left: 440px;
+  margin-top: 14px;
+  font-size: 16px;
+}
+.ierm1 {
+  padding-right: 16px;
+}
+.ierm1:hover {
+  color: #fff;
+}

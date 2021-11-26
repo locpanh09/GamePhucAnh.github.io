@@ -1,0 +1,6 @@
+/* từ pc xuống  */
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .title {
+    flex-direction: column;
+  }
+}

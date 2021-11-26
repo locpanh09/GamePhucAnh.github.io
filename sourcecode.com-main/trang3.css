@@ -1,0 +1,22 @@
+.container {
+  height: 850px;
+}
+.forr img {
+  margin-left: -16px;
+  margin-bottom: 35px;
+}
+.imgs7 img {
+  margin-right: 25px;
+}
+.forr span {
+  color: #fff;
+  font-size: 15px;
+}
+.forr a {
+  color: #1cbfff;
+  font-weight: 600;
+}
+.forr strong {
+  font-weight: 100;
+  font-size: 12px;
+}

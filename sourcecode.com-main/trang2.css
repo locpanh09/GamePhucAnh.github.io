@@ -1,0 +1,24 @@
+.pure {
+  border-width: 0;
+  height: 5px;
+  border-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #6afff3 20%,
+    #1cbfff 40%,
+    #1cbfff 60%,
+    #bf71ff 80%
+  );
+  width: 1130px;
+  margin-top: 50px;
+}
+.ioss {
+  display: flex;
+}
+.imgs8 img {
+  margin-top: 35px;
+  margin-left: 80px;
+}
+.container {
+  height: 1790px;
+}

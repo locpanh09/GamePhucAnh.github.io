@@ -1,0 +1,135 @@
+.container {
+  height: 620px;
+  overflow: hidden;
+}
+#tong1 {
+  height: 982px;
+  background-color: #141526;
+  margin-top: -60px;
+  padding-left: 201px;
+  padding-top: 60px;
+}
+.boder {
+  margin-top: -41px;
+}
+.imgs7 img {
+  margin-top: -80px;
+  margin-right: 120px;
+}
+.bodrer {
+  width: 113%;
+  margin-left: -200px;
+  margin-top: -1px;
+}
+/* phanokhoa */
+.security {
+  display: flex;
+  color: #fff;
+}
+.imgs9 {
+  margin-right: 50px;
+}
+.trust h3 {
+  font-size: 26px;
+  font-weight: 300;
+}
+.trust p {
+  line-height: 25px;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+.trust span {
+  font-size: 18px;
+}
+.accest {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.accest li {
+  padding: 6px 0px;
+  font-size: 18px;
+  margin-left: 27px;
+}
+/* phanVPN */
+
+.flexibility {
+  text-align: center;
+  margin-left: -200px;
+  color: #fff;
+}
+.flexibility span {
+  font-size: 28px;
+}
+.flexibility p {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+/* phan4flex */
+.phan4flex {
+  margin-left: 100px;
+}
+.easy {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 380px;
+  margin-top: 80px;
+}
+.iconss .fa-angle-right {
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 40px;
+  color: rgb(133, 133, 133);
+  font-weight: 100;
+}
+
+/* phangopremium */
+.data {
+  height: 552px;
+  background-color: #0b0c1b;
+  display: flex;
+  color: #fff;
+  padding-left: 201px;
+  padding-top: 70px;
+}
+.img11 {
+  display: flex;
+}
+.also h4 {
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.also span {
+  line-height: 25px;
+  font-size: 18px;
+}
+.img11 {
+  text-align: center;
+  margin: 40px 0px;
+}
+.imgs10 {
+  margin-right: 80px;
+}
+.unli {
+  font-size: 16px;
+  color: rgb(107, 105, 105);
+}
+.other {
+  font-size: 18px;
+  line-height: 25px;
+}
+.today {
+  margin-left: 200px;
+  width: 350px;
+  height: 300px;
+  border: 1px solid rgba(145, 147, 168, 0.25);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+  padding-top: 20px;
+}
+.today img {
+  margin-top: 20px;
+}
